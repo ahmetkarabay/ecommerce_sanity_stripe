@@ -1,0 +1,40 @@
+
+
+.ShopMain{
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: rgb(134, 134, 149);
+    /* background-color: black; */
+    height: auto;
+    border-radius: 15px;
+}
+
+.HeaderHead{
+    display:flex;
+    flex-direction:column;
+    /* color: white; */
+    justify-content: center;
+} 
+
+.shopHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopTitles{
+    margin: 2.5%;
+}
+
+#Title{
+    font-size: 100px;
+    text-align: center;
+}
+
+
+#TitleSmall{
+    margin: 2.5% 0%;
+    text-align: center;
+    font-size:35px;
+    color:darkslategray;
+}

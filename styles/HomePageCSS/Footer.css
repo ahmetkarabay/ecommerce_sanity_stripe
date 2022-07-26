@@ -1,0 +1,38 @@
+
+/* FOOTER SECTION YEEE */
+
+.shadesFooter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.shadesFooter .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.shadesFooter a{
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 11px;
+    color: black;
+}
+
+.shadesFooter .follow i{
+    color: darkslategray;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+.shadesFooter .follow i:hover,
+.shadesFooter a:hover{    
+color:darkturquoise;
+}
+
+.shadesFooter .copyright{
+    width: 100%;
+    text-align: center;
+}

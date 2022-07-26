@@ -1,0 +1,36 @@
+
+br {
+    content: "";
+    margin: 2em;
+    display: block;
+    font-size: 24%;
+}
+
+/* FEATUES AREA  */
+
+#Benefits {
+    font-family: "League Spartan";
+    font-size: 22px;
+    margin-left:650px;
+    margin-top: 35px;
+    color:crimson;
+    font-weight: 500;
+    align-self: center;
+}
+
+.section-p2 {
+    padding: 40px 80px;
+    background-image: url("../../assets/img/home_img/Features/FinalBackgroundImage.webp");
+    width: 100%;
+    height: 22vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px;
+}
+
+#feature h2{
+    color:white;
+    font-weight:900;
+    margin-left:625px;  
+    margin-top: -30px;
+}

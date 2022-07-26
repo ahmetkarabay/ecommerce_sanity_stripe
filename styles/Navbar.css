@@ -1,0 +1,79 @@
+
+button.normal {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: black;
+    background-color: white;
+    border-radius: 4px;     
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+#header {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    padding: 15px 90px;
+    background: rgb(88, 88, 88);
+    box-shadow: 0 15px 5px rgb(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+    font-family: "Satisfy", sans-serif;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    color: gold;
+    transition: 0.4s ease;
+}
+
+.horizonShades {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: -625px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+
+#homeNav #header div #navbar li .homeActive,
+#shoppingNav #header div #navbar li .shoppingActive,
+#supportNav #header div #navbar li .supportActive,
+#cartNav #header div #navbar li .cartActive,
+#accountNav #header div #navbar li .accountActive,
+#navbar li a:hover{
+    color: black;
+}
+
+#homeNav #header div #navbar li .homeActive::after,
+#shoppingNav #header div #navbar li .shoppingActive::after,
+#supportNav #header div #navbar li .supportActive,
+#cartNav #header div #navbar li .cartActive,
+#accountNav #header div #navbar li .accountActive,
+#navbar li a.active::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: black;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}

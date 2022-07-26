@@ -1,0 +1,79 @@
+.heroClass {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: larger;
+}
+
+#hero {
+    background-image: url("../../assets/img/home_img/HomePageIntro/niceHorizon2.png");
+    object-position: 100% 100%;
+    font-style: italic;
+    background-size: cover;
+    background-position: bottom 0% right 0%;
+    position: relative;
+    padding: 0 80px;
+    height: 90vh;
+    width: 91.6%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#hero h4 {
+    margin-top: 310.5px;
+    padding-bottom: 25px;
+}
+
+#hero h2 {
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+#hero h1 {
+    padding-left: 50px;
+    padding-bottom: 25px;
+}
+
+#hero p {
+    padding-left: 75px;
+}
+
+#RiseOrSet {
+    margin-left: 525px;
+    margin-top: -310.5px;
+}
+
+#RiseOrSet button1 {
+    font-style: italic;
+    color: black;
+    background-color: rgb(255, 191, 0);
+    font-size: medium;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 100;
+}
+
+
+#RiseOrSet button2 {
+    font-style: italic;
+    color: black;
+    background-color: orangered;
+    font-size: medium;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 100;
+}
+
+/* The Cool DUDE */
+
+#CoolGuy {
+    position: absolute;
+    text-align: center;
+    height: 90vh;
+    width: 30%;
+    background-size: contain;
+    background-position: top 100% right 100%;
+    right: 0px;
+    top: 0px;
+}

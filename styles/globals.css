@@ -1,0 +1,6 @@
+@import './Navbar.css';
+@import './HomePageCSS/globals.css';
+@import './AccountPageCSS/ACCGlobals.css';
+@import './CartPageCSS/CartGlobals.css';
+@import './ShopPageCss/ShopGlobals.css';
+@import './SupportPageCSS/SupportGlobals.css';
